@@ -24,3 +24,29 @@
     border-inline: none;
     justify-content: space-between;
 }
+
+@media (width <= 24em) {
+   & header {
+        & #primary {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+
+        & strong {
+            display: none;
+        }
+      }
+
+    & nav#secondary {
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+        width: 1280px;
+        height: 48px;
+        gap: 20px;
+
+    }
+    }
+}
+

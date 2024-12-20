@@ -73,3 +73,21 @@ main {
     color: var(--text-color-primary);
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
 }
+
+@media (width <= 24em) {
+   & body {
+        max-width: 360px;
+        height: 4093px;
+        .desktop-only {
+            display: none;   
+        }
+    
+    }
+
+   & h2{
+        display: none;
+    }
+    
+
+}
+
